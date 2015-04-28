@@ -9,7 +9,7 @@ class CulLayoutsPlugin extends Omeka_Plugin_AbstractPlugin
   {
     
     $layouts['file-no-text'] = array( 'name' => 'File without Text',
-					 'description' => 'Layout featuring file(s), no text' );
+					 'description' => 'Layout featuring file(s), no text, one file per row' );
     return $layouts;
 
   }
