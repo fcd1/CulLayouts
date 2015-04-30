@@ -13,17 +13,6 @@ $options = $block->getOptions();
         <div class="drawer"></div>
     </div>
     
-    <div class="file-position">
-        <?php echo $this->formLabel($formStem . '[options][file-position]', __('File position')); ?>
-        <?php
-        echo $this->formSelect($formStem . '[options][file-position]',
-            @$options['file-position'], array(),
-            array('center' => __('Center'),
-		  'left' => __('Left'),
-		  'right' => __('Right')));
-        ?>
-    </div>
-    
     <div class="file-width">
         <?php echo $this->formLabel($formStem . '[options][file-width', __('File width')); ?>
         <?php
@@ -38,6 +27,17 @@ $options = $block->getOptions();
         ?>
     </div>
 
+    <div class="file-position">
+        <?php echo $this->formLabel($formStem . '[options][file-position]', __('File position')); ?>
+        <?php
+        echo $this->formSelect($formStem . '[options][file-position]',
+            @$options['file-position'], array(),
+            array('center' => __('Center'),
+		  'left' => __('Left'),
+		  'right' => __('Right')));
+        ?>
+    </div>
+    
     <div class="captions-position">
         <?php echo $this->formLabel($formStem . '[options][captions-position]', __('Captions position')); ?>
         <?php
