@@ -65,3 +65,16 @@
 .layout-cul-file-no-text .exhibit-items.quarterwidth{
   width: 25%;
 }
+
+.layout-cul-file-no-text .exhibit-items.center .exhibit-item {
+  text-align: center;
+}
+
+.layout-cul-file-no-text .exhibit-items.left .exhibit-item {
+  text-align: left;
+}
+
+.layout-cul-file-no-text .exhibit-items.right .exhibit-item {
+  text-align: right;
+}
+
