@@ -1,10 +1,10 @@
 <?php
 $position = isset($options['file-position'])
     ? html_escape($options['file-position'])
-    : 'center';
+    : 'left';
 $width = isset($options['file-width'])
     ? html_escape($options['file-width'])
-    : 'fullwidth';
+    : 'threequarterwidth';
 $captionPosition = isset($options['captions-position'])
     ? html_escape($options['captions-position'])
     : 'center';
