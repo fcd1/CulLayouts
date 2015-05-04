@@ -10,6 +10,8 @@ class CulLayoutsPlugin extends Omeka_Plugin_AbstractPlugin
     
     $layouts['cul-file-no-text'] = array( 'name' => 'CUL - File without Text',
 					 'description' => 'CUL Layout featuring file(s), no text, one file per row' );
+    $layouts['cul-one-file-with-text'] = array( 'name' => 'CUL - One File with Text',
+					 'description' => 'CUL Layout featuring one file with text' );
     return $layouts;
 
   }

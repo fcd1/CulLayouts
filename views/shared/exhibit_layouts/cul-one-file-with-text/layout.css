@@ -1,0 +1,100 @@
+.layout-cul-one-file-with-text .exhibit-items > * {
+    max-width: 100%;
+    margin-bottom: 4em;
+}
+
+.layout-cul-one-file-with-text .exhibit-items > *:last-child {
+    margin-bottom: 0;
+}
+
+.layout-cul-one-file-with-text .exhibit-items .download-file {
+    clear: both;
+    border-bottom: 0;
+    overflow: visible;
+}
+
+.layout-cul-one-file-with-text .exhibit-items .fullsize img {
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
+.layout-cul-one-file-with-text .item-caption p {
+    margin: 0;
+    clear: both;
+}
+
+.layout-cul-one-file-with-text .captions-center .exhibit-item-caption p {
+    text-align: center;
+}
+
+.layout-cul-one-file-with-text .captions-left .exhibit-item-caption p {
+    text-align: left;
+}
+
+.layout-cul-one-file-with-text .captions-right .exhibit-item-caption p {
+    text-align: right;
+}
+
+.layout-cul-one-file-with-text .exhibit-items.center{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.layout-cul-one-file-with-text .exhibit-items.left{
+  float: left;
+  padding-left: 2%;
+}
+
+.layout-cul-one-file-with-text .exhibit-items.right {
+  float: right;
+  padding-right: 2%;
+}
+
+.layout-cul-one-file-with-text .exhibit-text.left{
+  float: right;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.layout-cul-one-file-with-text .exhibit-text.right {
+  float: left;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.layout-cul-one-file-with-text .exhibit-items.threequarterwidth{
+  width: 69%;
+}
+
+.layout-cul-one-file-with-text .exhibit-text.threequarterwidth{
+  width: 25%;
+}
+
+.layout-cul-one-file-with-text .exhibit-items.halfwidth{
+  width: 47%;
+}
+
+.layout-cul-one-file-with-text .exhibit-text.halfwidth{
+  width: 47%;
+}
+
+.layout-cul-one-file-with-text .exhibit-items.quarterwidth{
+  width: 25%;
+}
+
+.layout-cul-one-file-with-text .exhibit-text.quarterwidth{
+  width: 69%;
+}
+
+.layout-cul-one-file-with-text .exhibit-items.center .exhibit-item {
+  text-align: center;
+}
+
+.layout-cul-one-file-with-text .exhibit-items.left .exhibit-item {
+  text-align: left;
+}
+
+.layout-cul-one-file-with-text .exhibit-items.right .exhibit-item {
+  text-align: right;
+}
+
