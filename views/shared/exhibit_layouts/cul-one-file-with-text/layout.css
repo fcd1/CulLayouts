@@ -45,28 +45,37 @@
   padding-left: 2%;
 }
 
+.layout-cul-one-file-with-text .exhibit-items.left.wraparound {
+  padding-right: 2%;
+}
+
 .layout-cul-one-file-with-text .exhibit-items.right {
   float: right;
   padding-right: 2%;
 }
 
-.layout-cul-one-file-with-text .exhibit-text.left{
-  float: right;
+.layout-cul-one-file-with-text .exhibit-items.right.wraparound {
+  padding-left: 2%;
+}
+
+.layout-cul-one-file-with-text .exhibit-text {
   padding-right: 2%;
   padding-left: 2%;
 }
 
-.layout-cul-one-file-with-text .exhibit-text.right {
+.layout-cul-one-file-with-text .exhibit-text.left.column {
+  float: right;
+}
+
+.layout-cul-one-file-with-text .exhibit-text.right.column {
   float: left;
-  padding-right: 2%;
-  padding-left: 2%;
 }
 
 .layout-cul-one-file-with-text .exhibit-items.threequarterwidth{
   width: 69%;
 }
 
-.layout-cul-one-file-with-text .exhibit-text.threequarterwidth{
+.layout-cul-one-file-with-text .exhibit-text.threequarterwidth.column {
   width: 25%;
 }
 
@@ -74,7 +83,7 @@
   width: 47%;
 }
 
-.layout-cul-one-file-with-text .exhibit-text.halfwidth{
+.layout-cul-one-file-with-text .exhibit-text.halfwidth.column {
   width: 47%;
 }
 
@@ -82,7 +91,7 @@
   width: 25%;
 }
 
-.layout-cul-one-file-with-text .exhibit-text.quarterwidth{
+.layout-cul-one-file-with-text .exhibit-text.quarterwidth.column {
   width: 69%;
 }
 

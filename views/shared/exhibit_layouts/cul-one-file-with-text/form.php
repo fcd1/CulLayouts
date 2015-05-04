@@ -50,6 +50,18 @@ $options = $block->getOptions();
         ?>
     </div>
 
+    <div class="text-behavior">
+        <?php echo $this->formLabel($formStem . '[options][text-behavior]', __('Text behavior')); ?>
+        <?php
+        echo $this->formSelect($formStem . '[options][text-behavior]',
+            @$options['text-behavior'], array(),
+            array(
+                'column' => __('Column opposite file'),
+                'wraparound' => __('Wrap around file')
+            ));
+        ?>
+    </div>
+
 </div>
 
 <div class="block-text">
