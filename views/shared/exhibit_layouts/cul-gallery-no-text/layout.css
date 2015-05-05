@@ -1,0 +1,211 @@
+.layout-cul-file-no-text .exhibit-items > * {
+    max-width: 100%;
+    margin-bottom: 4em;
+}
+
+.layout-cul-file-no-text .exhibit-items > *:last-child {
+    margin-bottom: 0;
+}
+
+.layout-cul-file-no-text .exhibit-items .download-file {
+    clear: both;
+    border-bottom: 0;
+    overflow: visible;
+}
+
+.layout-cul-file-no-text .exhibit-items .fullsize img {
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
+.layout-cul-file-no-text .item-caption p {
+    margin: 0;
+    clear: both;
+}
+
+.layout-cul-file-no-text .exhibit-items.center{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.layout-cul-file-no-text .exhibit-items.left{
+  float: left;
+  padding-left: 2%;
+}
+
+.layout-cul-file-no-text .exhibit-items.right {
+  float: right;
+  padding-right: 2%;
+}
+
+.layout-cul-file-no-text .exhibit-items.fullwidth{
+  width: 96%;
+}
+
+.layout-cul-file-no-text .exhibit-items.threequarterwidth{
+  width: 75%;
+}
+
+.layout-cul-file-no-text .exhibit-items.halfwidth{
+  width: 50%;
+}
+
+.layout-cul-file-no-text .exhibit-items.quarterwidth{
+  width: 25%;
+}
+
+.layout-cul-file-no-text .exhibit-items.center .exhibit-item {
+  text-align: center;
+}
+
+.layout-cul-file-no-text .exhibit-items.left .exhibit-item {
+  text-align: left;
+}
+
+.layout-cul-file-no-text .exhibit-items.right .exhibit-item {
+  text-align: right;
+}
+
+
+/* CUL Gallery */
+
+.layout-cul-gallery-no-text .captions-center .exhibit-item-caption p {
+    text-align: center;
+}
+
+.layout-cul-gallery-no-text .captions-left .exhibit-item-caption p {
+    text-align: left;
+}
+
+.layout-cul-gallery-no-text .captions-right .exhibit-item-caption p {
+  text-align: right;
+}
+
+.layout-cul-gallery-no-text .exhibit-items .exhibit-item {
+  display: inline-block;
+  padding-top: 2%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.halfwidth {
+  padding-left: 1%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.halfwidth .exhibit-item {
+  width: 46%;
+  padding-right: 0;
+  padding-left: 2.5%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.halfwidth {
+  padding-left: 0;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.onethirdwidth.files-per-row-three .exhibit-item {
+  width: 30%;
+  padding-right: 1.1%;
+  padding-left: 1.4%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.onethirdwidth.files-per-row-three {
+  padding-left: 1%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.onethirdwidth.files-per-row-two .exhibit-item {
+  width: 32%;
+  padding-right: 5%;
+  padding-left: 7%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.onethirdwidth.files-per-row-two {
+  padding-left: 7%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.quarterwidth.files-per-row-two .exhibit-item {
+  width: 22%;
+  padding-right: 0;
+  padding-left: 18%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.quarterwidth.files-per-row-two {
+  padding-left: 1%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.quarterwidth.files-per-row-three .exhibit-item {
+  width: 22%;
+  padding-right: 0;
+  padding-left: 8%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.quarterwidth.files-per-row-three {
+  padding-left: 1%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.quarterwidth.files-per-row-four .exhibit-item {
+  width: 22%;
+  padding-right: 0;
+  padding-left: 2%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.quarterwidth.files-per-row-four {
+  padding-left: 0;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.thumbnail.files-per-row-three .exhibit-item {
+  width: 15%;
+  padding-right: 0;
+  padding-left: 13%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.thumbnail.files-per-row-three {
+  padding-left: 0;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.thumbnail.files-per-row-two .exhibit-item {
+  width: 15%;
+  padding-right: 0;
+  padding-left: 23%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.thumbnail.files-per-row-two {
+  padding-left: 0;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.thumbnail.files-per-row-four .exhibit-item {
+  width: 15%;
+  padding-right: 0;
+  padding-left: 7%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.thumbnail.files-per-row-four {
+  padding-left: 0;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.thumbnail.files-per-row-five .exhibit-item {
+  width: 15%;
+  padding-right: 0;
+  padding-left: 3.5%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.thumbnail.files-per-row-five {
+  padding-left: 0;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.thumbnail.files-per-row-six .exhibit-item {
+  width: 15%;
+  padding-right: 0;
+  padding-left: 1%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.thumbnail.files-per-row-six {
+  padding-left: 0;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.tinythumbnail .exhibit-item {
+  width: 8%;
+  padding-right: 0;
+  padding-left: .5%;
+}
+
+.layout-cul-gallery-no-text .exhibit-items.tinythumbnail {
+  padding-left: 0;
+}
